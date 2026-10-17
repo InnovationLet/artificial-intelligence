@@ -4,6 +4,14 @@ date: 2026-01-20 09:00:00 +0000
 author: "InnovationLet Editorial"
 tags: [Research]
 description: "A model that beat a leaderboard rival by 11 points failed 3 in 10 real support tickets. Here's how to evaluate models on your own workload instead."
+permalink: "/the-eval-gap/"
+subtitle: "Leaderboard wins measure someone else's task. Build an eval set from your own traffic instead."
+keywords: "model evaluation, benchmarks, LLM evals, production AI, test sets"
+key_points:
+  - "Benchmark gains often vanish on real inputs with typos, long contexts and messy structure."
+  - "Static public benchmarks leak into training data over time."
+  - "Label 100 to 200 real examples against the criteria you actually ship with."
+  - "Track human override rate in production as a continuous shadow metric."
 ---
 
 A model that topped a public leaderboard by 11 points spent its first week in production misclassifying 3 out of every 10 support tickets. The team had picked it on the strength of a headline number, and the number had nothing to do with their data.

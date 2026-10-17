@@ -1,0 +1,43 @@
+{%- comment -%} Article toolbar: listen, text size, print, share/copy. {%- endcomment -%}
+<div class="post-toolbar" role="toolbar" aria-label="Article tools">
+  <button class="tool" type="button" data-listen data-state="idle" aria-pressed="false">
+    <span class="tool__icons">
+      {% include icon.html name="volume" size=16 class="tool__icon-play" %}
+      {% include icon.html name="pause" size=16 class="tool__icon-pause" %}
+    </span>
+    <span class="tool__label" data-listen-label>Listen</span>
+  </button>
+
+  <div class="tool tool--group" role="group" aria-label="Text size">
+    <button class="tool__btn" type="button" data-fontsize="down" aria-label="Decrease text size">{% include icon.html name="minus" size=16 %}</button>
+    {% include icon.html name="type" size=16 class="tool__type" %}
+    <button class="tool__btn" type="button" data-fontsize="up" aria-label="Increase text size">{% include icon.html name="plus" size=16 %}</button>
+  </div>
+
+  <button class="tool" type="button" data-print>
+    {% include icon.html name="printer" size=16 %}
+    <span class="tool__label">Print</span>
+  </button>
+
+  <div class="tool tool--group translate" data-translate>
+    <button class="tool__btn tool__translate-toggle" type="button" data-translate-toggle aria-haspopup="true" aria-expanded="false">
+      {% include icon.html name="languages" size=16 %}
+      <span class="tool__label">Translate</span>
+    </button>
+    <div class="translate__panel" data-translate-panel hidden role="menu" aria-label="Translate this article">
+      <p class="translate__hint">Translate this article into:</p>
+      <div class="translate__langs" data-translate-langs></div>
+    </div>
+    <div id="google_translate_element" aria-hidden="true"></div>
+  </div>
+
+  <button class="tool" type="button" data-share hidden>
+    {% include icon.html name="share" size=16 %}
+    <span class="tool__label">Share</span>
+  </button>
+
+  <button class="tool" type="button" data-copy-url>
+    {% include icon.html name="copy" size=16 %}
+    <span class="tool__label" data-copy-label>Copy link</span>
+  </button>
+</div>

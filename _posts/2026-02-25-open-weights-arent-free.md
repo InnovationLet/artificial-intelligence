@@ -4,6 +4,14 @@ date: 2026-02-25 09:00:00 +0000
 author: "InnovationLet Editorial"
 tags: [Models]
 description: "Downloading the weights costs nothing. Running them well costs GPUs, on-call time, and a pile of infrastructure nobody quotes you. Here's the real math."
+permalink: "/open-weights-arent-free/"
+subtitle: "The weights are free. GPUs, on-call time and infrastructure are not."
+keywords: "open weights, self-hosting, LLM inference, GPU costs, MLOps"
+key_points:
+  - "Serving a 70B model means multiple GPUs sized for peak, paid for around the clock."
+  - "Inference infrastructure can consume a full-time role before any feature ships."
+  - "Open weights usually win on price only at high, sustained, predictable volume."
+  - "Price three months of real traffic fully loaded before committing to self-hosting."
 ---
 
 A 70B open-weight model looks like free money the day you download it. Then you rent two H100s at about $3 an hour each, and the meter runs through the night while traffic sits at zero.

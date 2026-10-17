@@ -4,9 +4,13 @@ layout: default
 <article class="page">
   <header class="page-header">
     <div class="wrap wrap--narrow">
+      {% include breadcrumbs.html %}
       <h1 class="page-header__title">{{ page.title | escape }}</h1>
       {% if page.description %}
       <p class="page-header__lead">{{ page.description }}</p>
+      {% endif %}
+      {% if page.updated %}
+      <p class="page-meta">Last reviewed <time datetime="{{ page.updated | date_to_xmlschema }}">{{ page.updated | date: '%B %-d, %Y' }}</time></p>
       {% endif %}
     </div>
   </header>

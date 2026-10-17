@@ -1,33 +1,74 @@
+# ---------------------------------------------------------------------------
+# InnovationLet — Artificial Intelligence
+# ---------------------------------------------------------------------------
 title: "InnovationLet Artificial Intelligence"
-short_title: "Artificial Intelligence"
+short_title: "AI"
 tagline: "Frontier models, research, and the rules around them."
 description: >-
   InnovationLet Artificial Intelligence covers machine learning models,
   research, autonomous agents and the policy shaping AI. Independent
   reporting and analysis from the InnovationLet editorial desk.
-author: "InnovationLet Editorial"
-email: "hello@innovationlet.com"
+author: "F9XR News Desk"
+email: "hello@f9xr.org"
 
 lang: "en"
 locale: "en_US"
+timezone: "UTC"
 
-url: "https://innovationlet.github.io"
+# Site root. All category sites live under https://innovationlet.f9xr.org/
+url: "https://innovationlet.f9xr.org"
 baseurl: "/artificial-intelligence"
-main_site: "https://innovationlet.github.io"
+main_site: "https://innovationlet.f9xr.org"
 
+# Publisher / trust identity (used by Organization + NewsArticle schema)
+publisher:
+  legal_name: "InnovationLet"
+  parent_org: "F9XR Team"
+  parent_url: "https://f9xr.org"
+  founded: "2026"
+  publishing_principles: "https://innovationlet.f9xr.org/artificial-intelligence/editorial-standards/"
+  logo:
+    path: "/og-image.png"
+    width: 1200
+    height: 630
+
+# Category identity used by the shared theme
 category_name: "Artificial Intelligence"
 category_meta: "Models · Research · Policy"
 accent: "blue"
 hero_title: "Machine learning, minus the hype."
 hero_lead: >-
-  Models, research and policy, explained for the people who build and
-  deploy AI rather than the people who pitch it.
+  Devices, software, and platforms, explained without the marketing spin.
+  We follow the technical decisions that actually change how things work.
 
 logo: "/favicon.svg"
 
 twitter_username: "innovationlet"
 github_username: "innovationlet"
 linkedin_username: "innovationlet"
+
+social:
+  name: "InnovationLet"
+  links:
+    - "https://twitter.com/innovationlet"
+    - "https://github.com/innovationlet"
+    - "https://www.linkedin.com/company/innovationlet"
+
+twitter:
+  username: "innovationlet"
+  card: "summary_large_image"
+
+# Google AdSense. Leave `client` empty to keep all ad code disabled.
+# Set `client` to your "ca-pub-XXXXXXXXXXXXXXXX" ID to activate the loader,
+# the ads.txt line, and the sitewide verification meta tag.
+adsense:
+  enabled: false
+  client: ""
+  # Optional per-placement slot IDs (used by the in-article ad unit).
+  slot: ""
+
+# Google Search Console / site verification (optional).
+google_site_verification: ""
 
 plugins:
   - jekyll-feed
@@ -37,6 +78,10 @@ feed:
   path: "feed.xml"
 
 show_excerpts: true
+
+# Publish posts dated later than the build time. News desks date stories to the
+# day they run, which is often ahead of the UTC build clock.
+future: true
 
 markdown: kramdown
 kramdown:
@@ -59,7 +104,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "InnovationLet Editorial"
+      author: "F9XR News Desk"
   - scope:
       path: ""
       type: "pages"

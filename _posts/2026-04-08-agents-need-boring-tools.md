@@ -4,6 +4,14 @@ date: 2026-04-08 09:00:00 +0000
 author: "InnovationLet Editorial"
 tags: [Agents]
 description: "Agent demos succeed because someone reruns them until they work. Production doesn't get free retries, and the fix is fewer tools, hard step limits, and boring paths."
+permalink: "/agents-need-boring-tools/"
+subtitle: "Demos get rerun until they work. Production needs fewer tools, typed inputs and hard step limits."
+keywords: "AI agents, tool use, LLM reliability, production agents, guardrails"
+key_points:
+  - "Most agent demos hide a retry loop; production doesn't get free retries."
+  - "Three narrow, typed tools beat fifteen free-form ones for reliability."
+  - "Cap agent loops and hand off to a person after a bounded number of failures."
+  - "Keep deterministic paths for steps that don't need judgment."
 ---
 
 An agent in a demo booked a flight in 40 seconds. In staging, the same agent failed one run in six, and half the failures came from it reaching for a tool that shouldn't have been on the table.
