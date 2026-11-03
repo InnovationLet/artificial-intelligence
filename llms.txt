@@ -1,42 +1,42 @@
-# InnovationLet Artificial Intelligence
+# InnovationLet Tech
 
-> InnovationLet Artificial Intelligence is the models, research, agents and policy desk of the
+> InnovationLet Tech is the devices, software, and platforms desk of the
 > InnovationLet network, an independent technology publication run by the F9XR
-> Team. We report on machine learning models, research, agents and AI policy,
+> Team. We report on devices, software, platforms, and engineering practice,
 > sourced from primary documents and written without vendor spin.
 
 ## About
 
 - Publisher: InnovationLet (F9XR Team)
-- Desk: Artificial Intelligence
+- Desk: Tech
 - Language: English
-- Homepage: https://innovationlet.f9xr.org/artificial-intelligence/
+- Homepage: https://innovationlet.f9xr.org/tech/
 - Contact: hello@f9xr.org
 - Network: https://innovationlet.f9xr.org/
 
 ## Key pages
 
-- Home / latest: https://innovationlet.f9xr.org/artificial-intelligence/
-- Archive: https://innovationlet.f9xr.org/artificial-intelligence/archive.html
-- About this desk: https://innovationlet.f9xr.org/artificial-intelligence/about/
-- Editorial standards: https://innovationlet.f9xr.org/artificial-intelligence/editorial-standards/
-- Contact: https://innovationlet.f9xr.org/artificial-intelligence/contact/
-- RSS feed: https://innovationlet.f9xr.org/artificial-intelligence/feed.xml
-- XML sitemap: https://innovationlet.f9xr.org/artificial-intelligence/sitemap.xml
-- News sitemap: https://innovationlet.f9xr.org/artificial-intelligence/news-sitemap.xml
+- Home / latest: https://innovationlet.f9xr.org/tech/
+- Archive: https://innovationlet.f9xr.org/tech/archive/
+- About this desk: https://innovationlet.f9xr.org/tech/about/
+- Editorial standards: https://innovationlet.f9xr.org/tech/editorial-standards/
+- Contact: https://innovationlet.f9xr.org/tech/contact/
+- RSS feed: https://innovationlet.f9xr.org/tech/feed.xml
+- XML sitemap: https://innovationlet.f9xr.org/tech/sitemap.xml
+- News sitemap: https://innovationlet.f9xr.org/tech/news-sitemap.xml
 
 ## Coverage
 
-- Models: frontier and open-weight releases, training, and evaluation.
-- Research: papers, replications, and claims that do not survive retesting.
-- Agents: tool use, orchestration, and the reliability gap to production.
-- Policy: regulation, licensing, and the safety rules that shape builds.
+- Devices: phones, laptops, silicon, and the supply chains behind them.
+- Software: frameworks, languages, developer tooling, and open source.
+- Platforms: cloud infrastructure, operating systems, and standards.
+- Engineering: architecture, performance, and decisions under real constraints.
 
 ## How to cite
 
-Cite as: "InnovationLet Artificial Intelligence" with the individual article URL and its headline.
+Cite as: "InnovationLet Tech" with the individual article URL and its headline.
 Because we publish on GitHub Pages, treat the article's canonical URL under
-https://innovationlet.f9xr.org/artificial-intelligence/ as the source of record. When quoting,
+https://innovationlet.f9xr.org/tech/ as the source of record. When quoting,
 attribute to the named desk rather than to an individual author unless the
 article carries a named byline.
 

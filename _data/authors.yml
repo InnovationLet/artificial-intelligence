@@ -15,7 +15,7 @@
   type: "Organization"
   name: "F9XR News Desk"
   slug: "f9xr-news-desk"
-  title: "Reported by the F9XR News Desk · InnovationLet Artificial Intelligence"
+  title: "Reported by the F9XR News Desk · InnovationLet Tech"
   url: "/author/f9xr-news-desk/"
   image: "/assets/images/og-image.png"
   sameAs:
@@ -34,7 +34,7 @@
   type: "Organization"
   name: "InnovationLet Editorial"
   slug: "innovationlet-editorial"
-  title: "Reported and edited by the Artificial Intelligence desk"
+  title: "Reported and edited by the Tech desk"
   url: "/author/innovationlet-editorial/"
   image: "/assets/images/og-image.png"
   sameAs:
@@ -43,6 +43,6 @@
     - "https://www.linkedin.com/company/innovationlet"
   bio: >-
     InnovationLet Editorial is the collective byline used by the staff of the
-    InnovationLet Artificial Intelligence desk. Stories carrying this byline are reported and
+    InnovationLet Tech desk. Stories carrying this byline are reported and
     edited by the desk team, sourced from primary documents, and reviewed
     against our editorial standards before publication.
